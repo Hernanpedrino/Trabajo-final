@@ -13,7 +13,7 @@
     </linearGradient>
    </defs>
    <g>
-    <title>Layer 1</title>
+    <title>Logo</title>
     <ellipse fill="url(#svg_4)" stroke="#000000" stroke-width="5" cx="211" cy="110" id="svg_1" rx="201" ry="102" stroke-opacity="0"/>
     <text fill="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" stroke-opacity="0" x="214" y="228" id="svg_5" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve" transform="matrix(24.08870509875669,0,0,3.400976708627681,-4864.327840031694,-522.035123047769) " stroke="#000000"/>
     <text fill="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" stroke-opacity="0" x="311" y="227" id="svg_6" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve" fill-opacity="0" stroke="#000000">HERNAN PEDRINO</text>
@@ -30,7 +30,7 @@
     <nav>
         <h2><a href="../index.html">Inicio</a> | <a href="#">Educación</a> | <a href="#">Experiencia</a></h2>
     <h2>Informacion Personal</h2>
-    <img src="../img/imgperfil.jpg" alt="Hernan Pedrino" title="Hernan Pedrino" width="500">
+    <img src="../img/imgperfil.jpg" alt="Hernan Pedrino" title="Hernan Pedrino" width="100">
     <section>
       <h2>Educacion</h2>
       <p><table border="2" cellpadding="4" cellspacing="0">
@@ -63,9 +63,16 @@
       </table></p>
       <p><h2>Agregar estudios</h2>
         <form autocomplete="on" action="index.html" method="post">
-            <label for="Año">Año</label>
-            <input type="date" name="year" value="yyyy">
-
+            <label for="Año"><strong>Año</strong></label>
+            <select class="" name="Año">
+              <option value="">2015</option>
+              <option value="">2016</option>
+              <option value="">2017</option>
+              <option value="">2018</option>
+              <option value="">2019</option>
+            </select>
+            <label for="Institución"><strong>Institución</strong></label>
+            <input type="text" required>
         </form></p>
 
     </section>
